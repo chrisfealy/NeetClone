@@ -5,6 +5,10 @@
   @apply px-4 py-1 rounded-full transition duration-300 ease-out hover:bg-body-bg
 }
 
+.course-link {
+  @apply bg-nav-bg pl-2 pr-4 py-2 rounded-lg shadow-lg transition duration-300 ease-out hover:bg-body-bg-2 cursor-pointer flex w-96 gap-2 font-semibold text-sm
+}
+
 @tailwind utilities;
 
 :root {
